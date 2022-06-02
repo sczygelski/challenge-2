@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    font-family: serif, Times;
+    background-color: #00160e;
+    color: #e4e3d3;
+}
