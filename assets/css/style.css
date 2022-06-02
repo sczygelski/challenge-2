@@ -12,13 +12,14 @@
 header {
     padding: 10px 10px;
     background-color: #e4e3d3;
-    display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    position:sticky;
+    position: -webkit-sticky;
     top: 0;
     background-image: url("../images/mignon.jpg");
     background-size: cover;
     background-color: none;
+    background-position: 50%;
 }
 
 header a {
@@ -26,15 +27,27 @@ header a {
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 20px 0;
 }
 
 header nav ul {
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 0 30% 10%;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 4vw;
+    
+}
+
+.main-header {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+    justify-content: space-evenly;
 }
 
 /* About */
