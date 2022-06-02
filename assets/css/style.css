@@ -2,12 +2,15 @@
     width: 100%;
     font-family: serif, Times;
     color: #e4e3d3;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header */
 
 header {
-    padding: 30px 30px;
+    padding: 10px 10px;
     background-color: #e4e3d3;
     display: flex;
     justify-content: space-evenly;
@@ -16,6 +19,22 @@ header {
     background-image: url("../images/mignon.jpg");
     background-size: cover;
     background-color: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* About */
