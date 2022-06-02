@@ -16,10 +16,9 @@ header {
     position:sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../images/mignon.jpg");
+    background-image: url("../images/morris-1.jpg");
     background-size: cover;
-    background-color: none;
-    background-position: 50%;
+    background-position: 80%;
 }
 
 header a {
@@ -37,12 +36,13 @@ header nav ul {
 header nav ul li {
     display: inline;
     margin: 0 0 30% 10%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 header nav ul li a {
     padding: 10px 15px;
     font-size: 4vw;
-    
+    color: #e4e3d3;
 }
 
 .main-header {
