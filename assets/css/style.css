@@ -26,7 +26,7 @@ header a {
 }
 
 header nav {
-    margin: 20px 0;
+    margin: 20px 20px;
 }
 
 header nav ul {
@@ -35,7 +35,7 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin: 0 0 30% 10%;
+    margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
@@ -102,7 +102,28 @@ body {
 
 
 /* Contact */
+section .contact {
+    border: 10px #e4e3d3;
+}
 
+.contact h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.contact div {
+    border: 5px solid #e4e3d3;
+}
+
+body nav ul {
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+body nav ul li {
+    display: inline;
+}
 
 
 /* Small */
