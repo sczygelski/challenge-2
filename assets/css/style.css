@@ -102,8 +102,11 @@ body {
 
 
 /* Contact */
-section .contact {
-    border: 10px #e4e3d3;
+
+.big-contact {
+    display: flex;
+    border: 10px solid #e4e3d3;
+    align-items: stretch;
 }
 
 .contact h2 {
