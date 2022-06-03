@@ -88,20 +88,24 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
+    background-image: url("../images/mignon.jpg");
+    background-position: 80%;
 }
 
 .mainwork {
-    background-image: url("../images/mignon.jpg");
     background-size: cover;
-}
+}    
 
-.notmainwork {
+.smallones {
     flex-wrap: wrap;
-    display: inline-block;
     flex-direction: row;
-
 }
 
+h3 {
+    border: 3px solid orangered;
+    border-radius: 15px;
+    margin-top: 10px;
+}
 
 /* Contact */
 
