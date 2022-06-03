@@ -58,18 +58,44 @@ body {
 
 /* Works */
 
+
 .sidebyside {
     display: flex;
+    padding: 30px 30px 30px 30px;
 }
 
 .bio {
     display: flex;
-    margin: 2;
+    margin: 1;
+    text-align: left;
+    padding: 20px;
+    align-items: center;
 }
 
 .ava-image {
     display: flex;
     margin: 1;
+    text-align: right;
 }
 
+.ava-image img {
+    max-width: 300px;
+}
+
+
 /* Contact */
+
+
+
+/* Small */
+@media screen and (max-width: 980px) {
+    .sidebyside {
+        width: 100%;
+    }
+}
+
+/* Smaller */
+
+
+
+/* Smallest */
