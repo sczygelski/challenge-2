@@ -53,10 +53,8 @@ header nav ul li a {
 /* About */
 body {
     background-color: #00160e;
+    padding: 0;
 }
-
-
-/* Works */
 
 
 .sidebyside {
@@ -80,6 +78,26 @@ body {
 
 .ava-image img {
     max-width: 300px;
+
+}
+
+
+/* Works */
+
+.container {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+}
+
+.mainwork {
+    background-image: url("..assets/images/morris-1");
+}
+
+
+.notmainwork {
+    flex-wrap: wrap;
+    display: inline-block;
 }
 
 
