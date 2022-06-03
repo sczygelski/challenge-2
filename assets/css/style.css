@@ -58,6 +58,18 @@ body {
 
 /* Works */
 
+.sidebyside {
+    display: flex;
+}
 
+.bio {
+    display: flex;
+    margin: 2;
+}
+
+.ava-image {
+    display: flex;
+    margin: 1;
+}
 
 /* Contact */
