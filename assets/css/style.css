@@ -60,11 +60,11 @@ body {
 .sidebyside {
     display: flex;
     padding: 30px 30px 30px 30px;
+    justify-content: space-evenly;
 }
 
 .bio {
     display: flex;
-    margin: 1;
     text-align: left;
     padding: 20px;
     align-items: center;
@@ -72,13 +72,17 @@ body {
 
 .ava-image {
     display: flex;
-    margin: 1;
-    text-align: right;
+    justify-content: center;
 }
 
 .ava-image img {
     max-width: 300px;
 
+}
+
+.name {
+    font-size: 35px;
+    color: orangered;
 }
 
 
@@ -114,11 +118,12 @@ h3 {
     border: 2px solid #e4e3d3;
     align-items: stretch;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
-.contact h2 {
+h2 {
     text-align: center;
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .contact {
