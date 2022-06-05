@@ -139,6 +139,7 @@ h3 button {
     font-size: 20px;
     text-align: left;
     border: 5px solid #00160e;
+    text-shadow: black 2px 0 10px;
 }
 
 /* Contact */
