@@ -91,16 +91,16 @@ body {
 .container {
     display: flex;
     align-items: center;
-
 }
 
 .mainwork {
     padding: 10px;
-
 }    
 
 .mainwork button {
     height: 158px;
+    background-image: url("../images/mignon.jpg");
+    background-position: 70%;
 }
 
 .smallones {
@@ -114,8 +114,24 @@ body {
     padding: 10px;
 }
 
-h3 {
+.button1 {
+    background-image: url("../images/mignon.jpg");
+    background-position: 30%;
+}
 
+.button2 {
+    background-image: url("../images/mignon.jpg");
+    background-position: 40%;
+}
+
+.button3 {
+    background-image: url("../images/mignon.jpg");
+    background-position: 50%;
+}
+
+.button4 {
+    background-image: url("../images/mignon.jpg");
+    background-position: 60%;
 }
 
 /* Contact */
