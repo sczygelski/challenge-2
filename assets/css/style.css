@@ -98,9 +98,10 @@ body {
 }    
 
 .mainwork button {
-    height: 158px;
+    height: 210px;
     background-image: url("../images/mignon.jpg");
     background-position: 70%;
+    padding: 10px;
 }
 
 .smallones {
@@ -132,6 +133,12 @@ body {
 .button4 {
     background-image: url("../images/mignon.jpg");
     background-position: 60%;
+}
+
+h3 button {
+    font-size: 20px;
+    text-align: left;
+    border: 5px solid #00160e;
 }
 
 /* Contact */
