@@ -90,29 +90,35 @@ body {
 
 .container {
     display: flex;
-    text-align: center;
     align-items: center;
-    background-image: url("../images/mignon.jpg");
-    background-position: 80%;
+
 }
 
 .mainwork {
-    background-size: cover;
+    padding: 10px;
+
 }    
 
+.mainwork button {
+    height: 158px;
+}
+
 .smallones {
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.smallones button {
+    padding: 10px;
 }
 
 h3 {
-    border: 3px solid orangered;
-    border-radius: 15px;
-    margin-top: 10px;
+
 }
 
 /* Contact */
-
 .big-contact {
     display: flex;
     border: 2px solid #e4e3d3;
