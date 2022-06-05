@@ -73,11 +73,11 @@ body {
 .ava-image {
     display: flex;
     justify-content: center;
+    align-self: center;
 }
 
 .ava-image img {
     max-width: 300px;
-
 }
 
 .name {
