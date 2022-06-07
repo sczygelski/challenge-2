@@ -180,10 +180,25 @@ body nav ul li {
     .sidebyside {
         width: 100%;
     }
+
+    .sidebyside {
+        flex-wrap: wrap-reverse;
+    }
+
+    .bio {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+   h3 button {
+       font-size: 40px;
+   }
+
+   h2 {
+       font-size: 40px;
+   }
 }
-
-/* Smaller */
-
-
-
-/* Smallest */
